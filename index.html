@@ -11,7 +11,7 @@
   <meta name="keywords" content="Sujith Lavudu, AI Engineer, Machine Learning, Tech-Driven Developer, Portfolio">
   <meta name="author" content="Sujith Lavudu">
 
-  <link rel="stylesheet" href="style.css?v=1.0.1">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" href="logo.jpeg">
   <meta name="google-site-verification" content="tyyid-TJjVwRVpnlaNjgdXyn4Z3Y46F9dI-Gabvg4Lc" />
 </head>
@@ -138,23 +138,44 @@
 
 <!-- BUY ME A COFFEE -->
 <section class="coffee">
-  <h2>Support My Work</h2>
-  <button>☕ Buy Me a Coffee</button>
+  <div class="coffee-container">
+    
+    <div class="coffee-text">
+      <h2>Support My Work</h2>
+
+      <a
+        href="upi://pay?pa=7331161928@ybl&pn=Sujith%20Lavudu&cu=INR"
+        class="btn-primary"
+      >
+        ☕ Buy Me a Coffee
+      </a>
+
+    </div>
+
+    <div class="coffee-image">
+      <img src="assests/coffee.jpg" alt="Coffee Support">
+    </div>
+
+  </div>
 </section>
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
   <h2>Get in Touch</h2>
-  <form>
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <textarea placeholder="Your Message"></textarea>
-    <button>Send Message</button>
-  </form>
+  <form action="https://formspree.io/f/mdakddbw" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <!-- Optional: prevents spam -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit">Send Message</button>
+</form>
 </section>
 
 <footer>
-  <p>© 2025 Sujith Lavudu. All rights reserved.</p>
+  <p>© 2026 Sujith Lavudu. All rights reserved.</p>
 </footer>
 
 </body>
